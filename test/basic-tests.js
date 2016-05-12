@@ -1,3 +1,5 @@
+'use strict';
+
 var chai = require('chai');
  // we are using the "expect" style of Chai
 var expect = chai.expect;
