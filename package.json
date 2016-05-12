@@ -4,7 +4,7 @@
   "description": "Simple Node boilerplate to play in workshops conference",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/ --recursive --watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/alvinberthelot/boilerplate-node/issues"
   },
-  "homepage": "https://github.com/alvinberthelot/boilerplate-node#readme"
+  "homepage": "https://github.com/alvinberthelot/boilerplate-node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
 }
