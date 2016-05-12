@@ -4,7 +4,7 @@
   "description": "Simple Node boilerplate to play in workshops conference",
   "main": "index.js",
   "scripts": {
-    "start": "node server/index.js",
+    "start": "nodemon server/index.js",
     "test": "mocha test/ --recursive --watch"
   },
   "repository": {
@@ -24,6 +24,7 @@
     "chai": "^3.5.0",
     "express": "^4.13.4",
     "mocha": "^2.4.5",
+    "nodemon": "^1.9.2",
     "superagent": "^1.8.3"
   }
 }
