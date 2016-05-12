@@ -1,0 +1,22 @@
+{
+  "name": "boilerplate-node",
+  "version": "1.0.0",
+  "description": "Simple Node boilerplate to play in workshops conference",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinberthelot/boilerplate-node.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Alvin Berthelot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvinberthelot/boilerplate-node/issues"
+  },
+  "homepage": "https://github.com/alvinberthelot/boilerplate-node#readme"
+}
