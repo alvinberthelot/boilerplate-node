@@ -4,6 +4,8 @@ var chai = require('chai');
  // we are using the "expect" style of Chai
 var expect = chai.expect;
 var superagent = require('superagent');
+var growl = require('growl');
+
 
 describe('Basic routes', function() {
 
@@ -14,6 +16,12 @@ describe('Basic routes', function() {
       expect(res.text).to.eql('Hello World!');
       done();
     });
+  });
+
+  afterEach(function() {
+    if (this.currentTest.state == 'failed') {
+      growl(this.currentTest.err.message, { title: this.currentTest.title, image: './assets/poo.png' });
+    }
   });
 
 });

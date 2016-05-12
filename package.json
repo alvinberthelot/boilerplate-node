@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/index.js",
-    "test": "mocha test/ --recursive --watch"
+    "test": "mocha test/ --recursive --watch --reporter=spec"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "express": "^4.13.4",
+    "growl": "^1.9.2",
     "mocha": "^2.4.5",
     "nodemon": "^1.9.2",
     "superagent": "^1.8.3"
