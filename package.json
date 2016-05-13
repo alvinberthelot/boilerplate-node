@@ -1,0 +1,31 @@
+{
+  "name": "boilerplate-node",
+  "version": "1.0.0",
+  "description": "Simple Node boilerplate to play in workshops conference",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "mocha test/ --recursive --watch --reporter=spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alvinberthelot/boilerplate-node.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Alvin Berthelot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alvinberthelot/boilerplate-node/issues"
+  },
+  "homepage": "https://github.com/alvinberthelot/boilerplate-node#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "growl": "^1.9.2",
+    "mocha": "^2.4.5",
+    "nodemon": "^1.9.2",
+    "superagent": "^1.8.3"
+  }
+}
